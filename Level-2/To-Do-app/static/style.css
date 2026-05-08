@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#121212;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    color:white;
+}
+
+.container{
+    width:500px;
+    background:#1e1e1e;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+}
+
+h1{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+form{
+    display:flex;
+    gap:10px;
+    margin-bottom:20px;
+}
+
+input{
+    flex:1;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    outline:none;
+    font-size:16px;
+}
+
+button{
+    padding:12px 18px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+form button{
+    background:#4CAF50;
+    color:white;
+}
+
+.task{
+    background:#2c2c2c;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:10px;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.done{
+    text-decoration:line-through;
+    color:#00ff99;
+}
+
+.buttons{
+    display:flex;
+    gap:10px;
+}
+
+.done-btn{
+    background:#2196F3;
+    color:white;
+}
+
+.delete-btn{
+    background:#f44336;
+    color:white;
+}
+
+a{
+    text-decoration:none;
+}
